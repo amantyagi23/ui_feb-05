@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  width: 10vw;
+}
+
+.navitems ul,
+.left-items,
+.right-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
